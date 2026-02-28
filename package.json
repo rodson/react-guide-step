@@ -1,6 +1,6 @@
 {
   "name": "react-guide-step",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "React product guide step component for onboarding tours",
   "type": "module",
   "main": "./dist/react-guide-step.cjs",

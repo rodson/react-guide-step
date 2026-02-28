@@ -1,11 +1,9 @@
 # react-guide-step
 
 [![npm version](https://img.shields.io/npm/v/react-guide-step.svg)](https://www.npmjs.com/package/react-guide-step)
-[![npm downloads](https://img.shields.io/npm/dm/react-guide-step.svg)](https://www.npmjs.com/package/react-guide-step)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/react-guide-step)](https://bundlephobia.com/package/react-guide-step)
 [![license](https://img.shields.io/npm/l/react-guide-step.svg)](https://github.com/rodson/react-guide-step/blob/main/LICENSE)
 
-English | [简体中文](https://github.com/rodson/react-guide-step/README.zh-CN.md)
+English | [简体中文](https://github.com/rodson/react-guide-step/blob/main/README.zh-CN.md)
 
 A lightweight, zero-dependency React component library for building interactive product tours, onboarding walkthroughs, and step-by-step guided experiences.
 

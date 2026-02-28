@@ -1,7 +1,6 @@
 # react-guide-step
 
 [![npm version](https://img.shields.io/npm/v/react-guide-step.svg)](https://www.npmjs.com/package/react-guide-step)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/react-guide-step)](https://bundlephobia.com/package/react-guide-step)
 [![license](https://img.shields.io/npm/l/react-guide-step.svg)](https://github.com/rodson/react-guide-step/blob/main/LICENSE)
 
 [English](./README.md) | 简体中文
