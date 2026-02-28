@@ -1,5 +1,9 @@
 # react-guide-step
 
+[![npm version](https://img.shields.io/npm/v/react-guide-step.svg)](https://www.npmjs.com/package/react-guide-step)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/react-guide-step)](https://bundlephobia.com/package/react-guide-step)
+[![license](https://img.shields.io/npm/l/react-guide-step.svg)](https://github.com/rodson/react-guide-step/blob/main/LICENSE)
+
 [English](./README.md) | 简体中文
 
 一个轻量级、零依赖的 React 组件库，用于构建交互式产品导览、用户引导和分步引导体验。
@@ -256,7 +260,3 @@ npm run build
 # 预览 demo 生产构建
 npm run preview
 ```
-
-## 许可证
-
-[MIT](./LICENSE)

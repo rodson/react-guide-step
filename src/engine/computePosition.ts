@@ -187,7 +187,7 @@ export function computePosition(
 
   // Try preferred placement
   let pos = computeRawPosition(targetRect, tooltipRect, placement, offset);
-  let resolvedPlacement = placement;
+  let resolvedPlacement: Placement = placement;
 
   // Flip if overflows
   if (overflows(pos, tooltipRect, side)) {
