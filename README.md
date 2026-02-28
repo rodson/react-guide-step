@@ -1,5 +1,7 @@
 # react-guide-step
 
+English | [简体中文](./README.zh-CN.md)
+
 A lightweight, zero-dependency React component library for building interactive product tours, onboarding walkthroughs, and step-by-step guided experiences.
 
 ## Features
