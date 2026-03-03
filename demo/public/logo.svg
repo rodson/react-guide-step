@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="40" y1="30" x2="88" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Cursor / pointer arrow -->
+  <path d="M38 28 L38 80 L52 68 L66 92 L76 86 L62 62 L80 58 Z" fill="url(#arrow)" stroke="#fff" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Step dots -->
+  <circle cx="78" cy="100" r="6" fill="#fff" opacity="0.4"/>
+  <circle cx="94" cy="100" r="6" fill="#fff" opacity="0.7"/>
+  <circle cx="110" cy="100" r="6" fill="#fff" opacity="1"/>
+</svg>

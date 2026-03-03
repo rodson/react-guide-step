@@ -1,9 +1,22 @@
-# react-guide-step
+<p align="center">
+  <img src="./logo.svg" alt="react-guide-step" width="120" height="120" />
+</p>
 
-[![npm version](https://img.shields.io/npm/v/react-guide-step.svg)](https://www.npmjs.com/package/react-guide-step)
-[![license](https://img.shields.io/npm/l/react-guide-step.svg)](https://github.com/rodson/react-guide-step/blob/main/LICENSE)
+<h1 align="center">react-guide-step</h1>
 
-English | [简体中文](https://github.com/rodson/react-guide-step/blob/main/README.zh-CN.md)
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-guide-step"><img src="https://img.shields.io/npm/v/react-guide-step.svg" alt="npm version" /></a>
+  <a href="https://github.com/rodson/react-guide-step/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react-guide-step.svg" alt="license" /></a>
+  <a href="https://www.npmjs.com/package/react-guide-step"><img src="https://img.shields.io/npm/dm/react-guide-step.svg" alt="downloads" /></a>
+</p>
+
+<p align="center">
+  English | <a href="https://github.com/rodson/react-guide-step/blob/main/README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
+  <b>🔗 <a href="https://rodson.github.io/react-guide-step/">Live Demo & Homepage</a></b>
+</p>
 
 A lightweight, zero-dependency React component library for building interactive product tours, onboarding walkthroughs, and step-by-step guided experiences.
 

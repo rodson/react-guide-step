@@ -1,9 +1,22 @@
-# react-guide-step
+<p align="center">
+  <img src="./logo.svg" alt="react-guide-step" width="120" height="120" />
+</p>
 
-[![npm version](https://img.shields.io/npm/v/react-guide-step.svg)](https://www.npmjs.com/package/react-guide-step)
-[![license](https://img.shields.io/npm/l/react-guide-step.svg)](https://github.com/rodson/react-guide-step/blob/main/LICENSE)
+<h1 align="center">react-guide-step</h1>
 
-[English](./README.md) | 简体中文
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-guide-step"><img src="https://img.shields.io/npm/v/react-guide-step.svg" alt="npm version" /></a>
+  <a href="https://github.com/rodson/react-guide-step/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react-guide-step.svg" alt="license" /></a>
+  <a href="https://www.npmjs.com/package/react-guide-step"><img src="https://img.shields.io/npm/dm/react-guide-step.svg" alt="downloads" /></a>
+</p>
+
+<p align="center">
+  <a href="./README.md">English</a> | 简体中文
+</p>
+
+<p align="center">
+  <b>🔗 <a href="https://rodson.github.io/react-guide-step/">在线演示 & 主页</a></b>
+</p>
 
 一个轻量级、零依赖的 React 组件库，用于构建交互式产品导览、用户引导和分步引导体验。
 
