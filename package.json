@@ -1,7 +1,7 @@
 {
   "name": "react-guide-step",
-  "version": "0.3.0",
-  "description": "React product guide step component for onboarding tours",
+  "version": "0.4.0",
+  "description": "A lightweight, zero-dependency React component for building interactive product tours, onboarding walkthroughs, and step-by-step guided experiences with spotlight overlay",
   "type": "module",
   "main": "./dist/react-guide-step.cjs",
   "module": "./dist/react-guide-step.js",
@@ -19,6 +19,7 @@
   "scripts": {
     "dev": "cd demo && npx vite",
     "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "build:demo": "cd demo && npx vite build",
     "preview": "cd demo && npx vite preview"
   },
   "peerDependencies": {
@@ -36,14 +37,36 @@
     "vite-plugin-dts": "^4.0.0"
   },
   "keywords": [
+    "react-guide-tour",
     "react",
     "guide",
     "tour",
     "onboarding",
     "step",
     "walkthrough",
-    "tooltip"
+    "tooltip",
+    "spotlight",
+    "product-tour",
+    "user-guide",
+    "react-tour",
+    "react-onboarding",
+    "guided-tour",
+    "intro",
+    "tutorial",
+    "coachmark",
+    "popover",
+    "overlay",
+    "react-component",
+    "lightweight"
   ],
   "license": "MIT",
-  "sideEffects": false
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodson/react-guide-step.git"
+  },
+  "homepage": "https://github.com/rodson/react-guide-step#readme",
+  "bugs": {
+    "url": "https://github.com/rodson/react-guide-step/issues"
+  }
 }

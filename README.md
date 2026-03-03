@@ -243,19 +243,3 @@ const steps: GuideStep[] = [
   },
 ];
 ```
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start demo dev server
-npm run dev
-
-# Build the library
-npm run build
-
-# Preview demo production build
-npm run preview
-```

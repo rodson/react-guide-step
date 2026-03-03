@@ -244,18 +244,3 @@ const steps: GuideStep[] = [
 ];
 ```
 
-## 开发
-
-```bash
-# 安装依赖
-npm install
-
-# 启动 demo 开发服务器
-npm run dev
-
-# 构建库
-npm run build
-
-# 预览 demo 生产构建
-npm run preview
-```
