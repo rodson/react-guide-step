@@ -37,6 +37,7 @@
     "vite-plugin-dts": "^4.0.0"
   },
   "keywords": [
+    "react-guide-step",
     "react-guide-tour",
     "react",
     "guide",
