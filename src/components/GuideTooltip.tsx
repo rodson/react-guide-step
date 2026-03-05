@@ -125,7 +125,7 @@ export const GuideTooltip: React.FC<GuideTooltipProps> = ({
     };
 
     return (
-      <div {...wrapperProps}>
+      <div {...wrapperProps} key={displayIndex}>
         {displayStep.customRender(renderProps)}
         {arrowElement}
       </div>
@@ -135,7 +135,7 @@ export const GuideTooltip: React.FC<GuideTooltipProps> = ({
   return (
     <div {...wrapperProps}>
       {displayStep.title && <div className="rgs-tooltip__title">{displayStep.title}</div>}
-      {displayStep.content && <div className="rgs-tooltip__content">{displayStep.content}</div>}
+      {displayStep.content && <div key={displayIndex} className="rgs-tooltip__content">{displayStep.content}</div>}
 
       <div className="rgs-tooltip__footer">
         <span className="rgs-tooltip__counter">{counter}</span>

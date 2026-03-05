@@ -10,6 +10,7 @@ import { useScrollIntoView } from '../hooks/useScrollIntoView';
 import { usePreloadImages } from '../hooks/usePreloadImages';
 import { getElement } from '../utils/dom';
 import { resolveTheme } from '../styles/theme';
+import { DEFAULT_HIGHLIGHT_PADDING } from '../engine/constants';
 import type { GuideStep } from '../types';
 
 /**
@@ -59,8 +60,8 @@ const GuideInner: React.FC = () => {
 
   const targetElement = shouldWait ? waitedElement : directElement;
 
-  // Preload images for all steps
-  const imagesReady = usePreloadImages(steps, currentStep, isActive);
+  // Preload images for upcoming steps in the background (non-blocking)
+  usePreloadImages(steps, currentStep, isActive);
 
   // Scroll target into view
   const scrollIntoView = useScrollIntoView(scrollBehavior);
@@ -75,7 +76,7 @@ const GuideInner: React.FC = () => {
     targetElement,
     placement: currentStepDef?.placement || 'bottom',
     enabled: isActive && !!targetElement,
-    highlightPadding: currentStepDef?.highlightPadding,
+    highlightPadding: currentStepDef?.highlightPadding ?? DEFAULT_HIGHLIGHT_PADDING,
   });
 
   // Focus the tooltip when step changes
@@ -139,7 +140,7 @@ const GuideInner: React.FC = () => {
         onMaskClick={handleMaskClick}
         placement={currentStepDef.placement}
       />
-      {isWaiting || !imagesReady ? (
+      {isWaiting ? (
         <div className="rgs-waiting">Loading...</div>
       ) : (
         <GuideTooltip

@@ -42,15 +42,20 @@ export function usePreloadImages(
 
     for (const url of allUrls) {
       if (cache.current.has(url)) continue;
-      cache.current.set(url, false);
       const img = new Image();
       img.src = url;
-      const onDone = () => {
+      // Check if the image is already cached by the browser
+      if (img.complete && img.naturalWidth > 0) {
         cache.current.set(url, true);
-        checkCurrent();
-      };
-      img.onload = onDone;
-      img.onerror = onDone;
+      } else {
+        cache.current.set(url, false);
+        const onDone = () => {
+          cache.current.set(url, true);
+          checkCurrent();
+        };
+        img.onload = onDone;
+        img.onerror = onDone;
+      }
     }
 
     checkCurrent();

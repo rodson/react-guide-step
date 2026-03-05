@@ -1,6 +1,7 @@
 import React from 'react';
 import { getRect } from '../utils/dom';
 import { clsx } from '../utils/dom';
+import { DEFAULT_HIGHLIGHT_PADDING } from '../engine/constants';
 import type { Placement } from '../types';
 
 interface GuideOverlayProps {
@@ -13,7 +14,7 @@ interface GuideOverlayProps {
 
 export const GuideOverlay: React.FC<GuideOverlayProps> = ({
   targetElement,
-  highlightPadding = 4,
+  highlightPadding = DEFAULT_HIGHLIGHT_PADDING,
   allowInteraction = false,
   onMaskClick,
   placement,
